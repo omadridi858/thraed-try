@@ -2,10 +2,7 @@ name: Run Python Script
 
 on:
   workflow_dispatch:
-    inputs:
-      ip-addresses:
-        description: 'Enter a comma-separated list of IP addresses to scan'
-        required: true
+
 
 jobs:
   run-python:
